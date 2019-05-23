@@ -7,7 +7,7 @@
   <remote  name="github"
            fetch="https://github.com/GrapheneOS/"
            revision="refs/heads/pie" />
-  <default revision="refs/tags/android-9.0.0_r37"
+  <default revision="refs/tags/android-9.0.0_r39"
            remote="aosp"
            sync-j="4" />
 
@@ -62,6 +62,10 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
   <project path="device/google/crosshatch" name="device_google_crosshatch" groups="device,crosshatch" remote="github" />
   <project path="device/google/crosshatch-sepolicy" name="device_google_crosshatch-sepolicy" groups="device,crosshatch" remote="github" />
+  <project path="device/google/bonito" name="device/google/bonito" groups="device,bonito" />
+  <project path="device/google/bonito-sepolicy" name="device/google/bonito-sepolicy" groups="device,bonito" />
+  <project path="device/google/bonito-kernel" name="device/google/bonito-kernel" groups="device,bonito" clone-depth="1" />
+  <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="bonito,crosshatch" />
   <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device" />
   <project path="device/google/cuttlefish_common" name="device/google/cuttlefish_common" groups="device" />
   <project path="device/google/cuttlefish_kernel" name="device/google/cuttlefish_kernel" groups="device" clone-depth="1" />
@@ -504,6 +508,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="kernel/configs" name="kernel_configs" groups="vts,pdk" remote="github" />
   <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="github" />
+  <project path="kernel/google/bonito" name="kernel/msm" revision="refs/heads/android-msm-bonito-4.9-pie-b4s4"/>
   <project path="kernel/google/marlin" name="kernel_google_marlin" remote="github" />
   <project path="kernel/google/wahoo" name="kernel_google_wahoo" remote="github" />
   <project path="kernel/tests" name="kernel/tests" />

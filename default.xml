@@ -7,6 +7,9 @@
   <remote  name="github"
            fetch="https://github.com/GrapheneOS/"
            revision="refs/heads/pie" />
+  <remote  name="ifbizo"
+           fetch="https://github.com/ifbizo/"
+           revision="refs/heads/master" />
   <default revision="refs/tags/android-9.0.0_r39"
            remote="aosp"
            sync-j="4" />

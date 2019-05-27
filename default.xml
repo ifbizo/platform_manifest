@@ -511,6 +511,10 @@
   <project path="kernel/configs" name="kernel_configs" groups="vts,pdk" remote="github" />
   <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="github" />
   <project path="kernel/google/bonito" name="kernel_google_bonito" remote="ifbizo" />
+  <project path="kernel/google/bonito/techpack/audio" name="kernel_google_bonito_techpack_audio" remote="ifbizo" />
+  <project path="kernel/google/bonito/drivers/staging/fw-api" name="kernel_google_bonito_drivers_staging_fw-api" remote="ifbizo" />
+  <project path="kernel/google/bonito/drivers/staging/qcacld-3.0" name="kernel_google_bonito_drivers_staging_qcacld-3.0" remote="ifbizo" />
+  <project path="kernel/google/bonito/drivers/staging/qca-wifi-host-cmn" name="kernel_google_bonito_drivers_staging_qca-wifi-host-cmn" remote="ifbizo" />
   <project path="kernel/google/marlin" name="kernel_google_marlin" remote="github" />
   <project path="kernel/google/wahoo" name="kernel_google_wahoo" remote="github" />
   <project path="kernel/tests" name="kernel/tests" />

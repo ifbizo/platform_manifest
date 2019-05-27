@@ -65,9 +65,8 @@
   <project path="device/google/contexthub" name="device/google/contexthub" groups="device,marlin,pdk" />
   <project path="device/google/crosshatch" name="device_google_crosshatch" groups="device,crosshatch" remote="github" />
   <project path="device/google/crosshatch-sepolicy" name="device_google_crosshatch-sepolicy" groups="device,crosshatch" remote="github" />
-  <project path="device/google/bonito" name="device/google/bonito" groups="device,bonito" />
-  <project path="device/google/bonito-sepolicy" name="device/google/bonito-sepolicy" groups="device,bonito" />
-  <project path="device/google/bonito-kernel" name="device/google/bonito-kernel" groups="device,bonito" clone-depth="1" />
+  <project path="device/google/bonito" name="device_google_bonito" groups="device,bonito" remote="ifbizo" />
+  <project path="device/google/bonito-sepolicy" name="device_google_bonito-sepolicy" groups="device,bonito" remote="ifbizo" />
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" groups="bonito,crosshatch" />
   <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device" />
   <project path="device/google/cuttlefish_common" name="device/google/cuttlefish_common" groups="device" />
@@ -511,7 +510,7 @@
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="kernel/configs" name="kernel_configs" groups="vts,pdk" remote="github" />
   <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="github" />
-  <project path="kernel/google/bonito" name="kernel/msm" revision="refs/heads/android-msm-bonito-4.9-pie-b4s4"/>
+  <project path="kernel/google/bonito" name="kernel_google_bonito" remote="ifbizo" />
   <project path="kernel/google/marlin" name="kernel_google_marlin" remote="github" />
   <project path="kernel/google/wahoo" name="kernel_google_wahoo" remote="github" />
   <project path="kernel/tests" name="kernel/tests" />
@@ -711,7 +710,7 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
-  <project path="vendor/android-prepare-vendor" name="android-prepare-vendor" remote="github" />
+  <project path="vendor/android-prepare-vendor" name="android-prepare-vendor" remote="ifbizo" />
   <project path="vendor/linaro" name="vendor_linaro" remote="github" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />

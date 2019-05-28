@@ -509,7 +509,6 @@
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan,pdk-qcom" />
   <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="kernel/configs" name="kernel_configs" groups="vts,pdk" remote="github" />
-  <project path="kernel/google/crosshatch" name="kernel_google_crosshatch" remote="github" />
   <project path="kernel/google/bonito" name="kernel_google_bonito" remote="ifbizo" />
   <project path="kernel/google/bonito/techpack/audio" name="kernel_google_bonito_techpack_audio" remote="ifbizo" />
   <project path="kernel/google/bonito/drivers/staging/fw-api" name="kernel_google_bonito_drivers_staging_fw-api" remote="ifbizo" />

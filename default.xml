@@ -10,7 +10,7 @@
   <remote  name="ifbizo"
            fetch="https://github.com/ifbizo/"
            revision="refs/heads/master" />
-  <default revision="refs/tags/android-9.0.0_r39"
+  <default revision="refs/tags/android-9.0.0_r42"
            remote="aosp"
            sync-j="4" />
 
